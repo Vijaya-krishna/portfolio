@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijaya Krishna's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 0.5rem;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .skills, .certifications {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skill, .certification {
+            background-color: #e8eaf6;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 0.5rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vijaya Krishna's Portfolio</h1>
+        <p>Empowering technology and law for a secure tomorrow.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am an aspiring cybercrime investigator and a student with a diploma in Computer Science and Engineering. I am passionate about cybersecurity, full-stack development, and leveraging technology to make the world a safer place.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">Cybersecurity</div>
+            <div class="skill">Full-Stack Development</div>
+            <div class="skill">Networking (CCNA, CompTIA)</div>
+            <div class="skill">UI Design</div>
+            <div class="skill">Photography & Cinematography</div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Media Team Head (2021 - Present):</strong> Led the team in creating media campaigns and managing projects.</li>
+            <li><strong>Full-Stack Developer Intern:</strong> Completed UI design and development projects.</li>
+            <li><strong>Cybersecurity Intern:</strong> Gained hands-on experience in network security and threat analysis.</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>UI Design Project:</strong> Designed and developed responsive user interfaces.</li>
+            <li><strong>Media Campaigns:</strong> Coordinated and executed creative projects for the media team.</li>
+        </ul>
+    </section>
+
+    <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <div class="certification">CompTIA A+</div>
+            <div class="certification">CompTIA Network+</div>
+            <div class="certification">CCNA</div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vijaya Krishna. All rights reserved.</p>
+    </footer>
+</body>
+</html>
